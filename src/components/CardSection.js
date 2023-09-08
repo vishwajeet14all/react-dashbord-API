@@ -3,7 +3,7 @@ import React, { Component } from "react";
 export class CardSection extends Component {
   render() {
     return (
-      <div>
+      <div >
         <div
           className="fs-1 fw-bold m-3 text-Capitalize"
           style={{
@@ -16,7 +16,7 @@ export class CardSection extends Component {
         </div>
         <section
           className="row m-3 mb-0"
-          style={{ marginTop: " 2px !important" }}
+          style={{ display:"flex",justifyContent:"center" ,marginTop: " 2px !important" }}
         >
           <div
             className="card text-white text-center  m-3"
